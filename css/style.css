@@ -370,6 +370,7 @@ body {
 @media screen and (max-width: 760px) {
     .projects__grid {
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
     .project__eye {
         width: 30px;
