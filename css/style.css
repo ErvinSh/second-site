@@ -16,6 +16,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    width: 100%;
 }
 .container {
     width: 1152px;
@@ -506,5 +507,8 @@ body {
     }
     .footer__flex {
         flex-wrap: wrap;
+    }
+    .footer__copy {
+        margin-bottom: 15px;
     }
 }
