@@ -463,6 +463,9 @@ body {
     .form__textarea_input {
         width: 200px;
     }
+    .form__textarea_input::placeholder {
+        width: 70px;
+    }
 }
 @media screen and (max-width: 420px) {
     .form__text-p {
