@@ -84,6 +84,7 @@ body {
 }
 .header__img {
     padding-top: 23px;
+    max-width: 357px;
     cursor: pointer;
 }
 .header__grid_text {
@@ -125,6 +126,26 @@ body {
     .header__grid {
         grid-template-columns: repeat(1, 1fr);
         padding-top: 100px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .header {
+        height: 1100px;
+    }
+    .header__flex {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .header_menu {
+        align-self: start;
+        margin-bottom: 10px;
+    }
+    .header__grid {
+        padding-top: 200px;
+    }
+    .header__img {
+        max-width: 200px;
     }
 }
 /* Конец стилей секции "HEADER" */
@@ -347,6 +368,12 @@ body {
     justify-items: center;
     gap: 0;
 }
+.projects__img:hover {
+    cursor: pointer;
+    opacity: .6;
+    transform: scale(1.03);
+    transition: all .3s linear .1s;
+}
 .img__eye {
     position: relative;
     margin: 0 auto;
@@ -387,6 +414,9 @@ body {
 .company__flex {
     display: flex;
     gap: 30px;
+}
+.company__flex-img:hover {
+    cursor: pointer;
 }
 @media screen and (max-width: 1280px) {
     .company__flex {
